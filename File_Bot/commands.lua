@@ -10,7 +10,6 @@ return false
 end 
 end
 
-
 if text == 'م1' then
 if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'⚠️| هاذا الامر خاص بالادمنيه\n🔖| ارسل {م10} لعرض اوامر الاعضاء')
@@ -65,7 +64,7 @@ Text = [[
 🔘| قفل ← فتح النكليزيه
 🔘| قفل ← فتح الانلاين
  ء┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉┉
-🔖| CH » @MERO_01
+🔖| CH » [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -108,9 +107,8 @@ Text = [[
 🔖| الردود
 🔖| ردود البوت
 🔖| اوامر التحشيش
-🔖| صورتي
  ٴ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH »  @MERO_01
+🔖| CH »  [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -151,7 +149,7 @@ Text = [[
 🔹| وصف
 🔹| تكرار + عدد
  ٴ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH »  @MERO_01
+🔖| CH »  [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -190,14 +188,13 @@ Text = [[
 📌| قائمه منع الصور
 📌| قائمه منع الملصقات
 📌| المحذوفين
-📌| مسح قائمه المنع
  ء┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 حذف + امر ↓
  ء┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 
 💠| امر
 💠| الاوامر المضافه
  ٴ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH »  @MERO_01
+🔖| CH »  [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -246,7 +243,7 @@ Text = [[
 🚸| تغير امر الاوامر
 🚸| تغير امر م1 › الحد م10
  ٴ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH »  @MERO_01
+🔖| CH »  [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -306,9 +303,8 @@ Text = [[
 🔺| ردود المدير
 🔺| اسم بوت + الرتبه
 🔺| الاوامر المضافه
-🔺| قائمه المنع
  ٴ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH »  @MERO_01
+🔖| CH »  [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -371,7 +367,7 @@ Text = [[
 🎖️| تاك لجريذيه
 ⚡| تنزيل جريذيه
 ء┉  ┉  ┉  ┉  ┉  ┉ ┉  ┉  ┉  ┉  ┉  ┉
-🔖| CH » @MERO_01
+🔖| CH » [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -404,7 +400,7 @@ Text = [[
 🔹| اذاعه / اذا كان مطور اساسي مفعلها
 🔹| ردود المطور 
  ء┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH » @MERO_01
+🔖| CH » [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -442,12 +438,9 @@ Text = [[
 🔍| اسم بوت + الرتبه
 🔍| تحديث السورس
 📍| حضر عام
-📍| كتم عام
 📍| الغاء العام
 📍| قائمه العام
 📍| مسح قائمه العام
-🗳️| جلب نسخه الاحتياطيه
-🗳️| رفع نسخه الاحتياطيه
  ء┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
  ⚜️| المتجر 
 ⚜️| متجر الملفات
@@ -459,7 +452,6 @@ Text = [[
 🔖| اذاعه
 🔖| اذاعه بالتوجيه
 🔖| اذاعه بالتوجيه خاص
-🔖| اذاعه بالتثبيت
 ء ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 📥|جلب نسخه البوت
 📤| رفع نسخه البوت
@@ -487,7 +479,7 @@ Text = [[
 🔆| تنظيف المشتركين
 🔆| تنظيف الكروبات
 ء ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH » @MERO_01
+🔖| CH » [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -522,7 +514,7 @@ Text = [[
 🚸| شنو رئيك بهاي بالرد
 🚸| تحب هذا
  ٴ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH »  @MERO_01
+🔖| CH »  [@MERO_01]
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false

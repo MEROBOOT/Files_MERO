@@ -30,7 +30,7 @@ Text_Games = [[
 ⌯︙لعبه الحزوره ~⪼لعبة التفكير 
 ⌯︙لعبه المعاني ~⪼ العبه الشهيره 
 ٴ… … … … … … … … … … …
-⌯︙Ch ~⪼ @MERO170
+⌯︙Ch ~⪼ @BOBBW
 ]]
 send(msg.chat_id_, msg.id_,Text_Games) 
 end
@@ -591,5 +591,5 @@ end
 
 end
 return {
-Poyka = games
+mero = games
 }

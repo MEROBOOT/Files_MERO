@@ -602,5 +602,5 @@ end
 
 end
 return {
-Poyka = games
+mero = games
 }

@@ -527,5 +527,5 @@ end
 
 end
 return {
-mero = Reply
+poyka = Reply
 }
